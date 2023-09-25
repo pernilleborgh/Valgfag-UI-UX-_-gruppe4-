@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("fonts.gstatic.com/s/didactgothic/v20/ahcfv8qz1zt6hCC5G4F_P4ASlUaYpmDmYyVwrA.woff2");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1920px;
+  min-width: 360px;
+  overflow-x: 0;
+}
+
+body{
+  background-color: white;
+}
+
+/* NAVBAR */
+.navbar{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  list-style-type: none;
+  text-align: right;
+  z-index: 5;
+}
+
+.logo{
+    position:relative;
+    top: 55px;
+    right: 595px;
+}
+
+.navlink{
+  position:relative;
+  display: inline;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  font-family: 'Didact Gothic', sans-serif;
+  top: 35px;
+  right: 133px;
+  font-weight:600;
+}
+
+.navlink a{
+  color: #3A3D59;
+  text-decoration: none;
+  padding: 1.5em;
+}
+
+.navlink a:hover{
+  color: #919FCE;
+}
+
+/* MAIN */
+main{
+  /* margin-left: 133px; */
+  min-height: 99vh;
+  max-width: 100vw;
+}
+
+/* MAIN */
+#headercontent {
+  background-image: url(../assets/images/header-træning.png);
+  background-size: 100%;
+  background-position: 0 46%;
+  height: 516px;
+  position: relative;
+}
+
+.circle {
+  color:#3A3D59;
+  width: 345px;
+  height: 326px;
+  background-color: #DAEFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200%, -50%);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.cirkel-content {
+  text-align: center;
+  justify-content: center;
+}
+
+#overskriftcirkel {
+  font-size: 45px;
+  font-family: 'Quicksand';
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  line-height: 50px;
+  text-align: center;
+  width: auto;
+  margin-left: 3%;
+  margin-top:7%;
+}
+
+.pcirkel {
+  width: 73%;
+  font-size: 24px;
+  font-family: 'Didact Gothic';
+  letter-spacing: 1.5px;
+  line-height: 132%;
+  margin-top:7%;
+  margin-left: 14%;
+}
+
+ul{
+  width:800px;
+  font-size:18px;
+  letter-spacing: 1.5px;
+  margin-top:5%;
+  font-weight:normal;
+}
+
+#lightbluesection {
+  background-color:#EEF8FF;
+  color:#3A3D59;
+  width: 1440;
+  height: 707;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.left-content {
+  width: 630px;
+  line-height: 140%;
+  margin-top:2%;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  width:900px;
+  font-size: 300%;
+  display: grid;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+p {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.quoteContent {
+  display:block;
+  position:relative;
+  margin-top:5%;
+  right: 14%;
+}
+
+.paragraphitalic {
+  font-style: italic;
+  width: 415px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top:-3%;
+  font-weight:normal;
+}
+
+#forfatter {
+  font-style: italic;
+  margin-top: 15px;
+  letter-spacing:2px;
+  font-weight:600;
+}
+
+.ekspertSection{
+  font-family: "Didact Gothic", sans-serif;
+  display: flex;
+  font-weight: 600;
+  color: #3A3D59;
+  margin-top:20%;
+  margin-bottom:10%;
+  margin-right:110%;
+  gap:50px; 
+}
+
+.ekspertBillede{
+  color:#3A3D59;
+  background-color:#919FCE;
+  position: relative;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.ekspertContainer{
+  display: flex;
+  width: 244px;
+  height: 150px;
+  margin: 0 60%;
+  position: relative;
+  margin-right: 15%;
+  left: 18%;
+  border-radius: 10px;
+  background-image: linear-gradient(#919FCE, rgba(255, 255, 255, 0));
+}
+
+.ekspertTitel{
+  font-size: 110%;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight:bolder;
+  letter-spacing: 2px;
+  width: 100px;
+  text-align: center;
+
+  margin: 0;
+  position: relative;
+  left: 45%;
+  top:5%;
+  margin-bottom: 20%;
+  margin-right: -50%;
+  transform: translate(-40%, 60%);
+  padding-bottom: 5px;
+}
+
+/* TRÆNING */
+h3{
+  color:#3A3D59;
+  font-family: "Quicksand", sans-serif;
+  font-size: 36px;
+  margin-left:548px;
+  text-transform:uppercase;
+}
+
+.træningstilbudSection{
+  margin-left:133px;
+  margin-top:100px;
+}
+
+.træningContainer1{
+  margin-top: 100px;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  column-gap: 100px;
+  float: left;
+}
+
+.træningContainer2{
+  padding-top: 100px;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  column-gap: 100px;
+  float: left;
+  margin-bottom:113px;
+}
+
+.træningPic{
+  width: 736px;
+  height: 421px;
+}
+
+.cardContent{
+  color:#DAEFFF;
+  position:absolute;
+  margin-left:35px;
+  margin-top:30px;
+}
+.cardTitle{
+  font-size:34px;
+  font-weight:600;
+  letter-spacing: 4px;
+  max-width:270px;
+}
+.cardDesc{
+  font-size: 18px;
+  margin-top: 20px;
+  width: 325px;
+  letter-spacing: 1.5px;
+}
+
+.tilmeldKnap{
+  /*PLACERING*/
+  display:block;
+  position: absolute;
+  z-index: 2;
+  margin-top:340px;
+  margin-left:35px;
+
+  /*STYLING*/
+  font-size: 18px;
+  width: 230px;
+  text-transform: uppercase;
+  font-family:"Quicksand", sans-serif;
+  font-weight: bold;
+  color: #3A3D59;
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 1px  #00000031;
+  border: hidden;
+  width: 331px;
+  height: 41px;
+  background-color: #FFC148;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* TRÆNINGSVIDEOER */
+
+.adoptionsprocessenSection {
+  color: #3A3D59;
+  margin: 5% auto; 
+  text-align: center; 
+}
+
+h5 {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card-Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center; 
+  margin: 6%;
+  margin-right: 35%;
+}
+
+.procesCard {
+  background-color: #EBF7FF;
+  color: #3A3D59;
+  width: 246px;
+  height: 246px;
+  border-radius: 10px; 
+  margin-left:100%;
+}
+
+.CardPic {
+  width: 246px;
+  height: 130px;
+}
+
+.CardTekst {
+  font-family: "Didact Gothic", sans-serif;
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+  width: 100%; 
+  align-items: center;
+}
+
+/*SPØRGSMÅL*/
+#section-spørgsmål {
+  top:50%;
+  background-color: #FFF3E5;
+  position:relative;
+  display:flex;
+  width:100%;
+  height:523px;
+}
+
+.spørgsmål-content {
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  flex: 1;
+}
+
+.text-container {
+  font-size: 34px;
+  flex: 1; 
+  padding: 50px;
+  width: 605px;
+  position:relative;
+  display:block;
+  margin-left:70px;
+}
+
+h5.heading-spørgsmål {
+  font-size:44px;
+  font-weight: bold;
+  color: #3A3D59;
+  letter-spacing:2px;
+}
+.text-container p {
+  color: #3A3D59;
+  width:605px;
+  height:156px;
+  margin-top:5%;
+}
+
+.contact-button {
+  margin-top:25px;
+  font-family: "Quicksand", sans-serif;
+  display: inline-block;
+  padding: 13px 20px;
+  background-color: #3A3D59;
+  color: #FFC148;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 331px;
+  height: 57px;
+  text-transform:uppercase;
+  text-decoration: none;
+  text-align:center;
+  font-size:24px;
+  letter-spacing: 1.5px;
+}
+
+#kontaktPil{
+  margin-left:45px;
+}
+
+.contact-button:hover {
+  background-color:#FFC148;
+  color:#3A3D59;
+}
+
+.spørgsmål-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-spørgsmål-section {
+  display:relative;
+  width: 637px;
+  height: 523px;
+}
+
+.heading-spørgsmål {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: #3C3830;
+  font-size: 36px;
+}
+
+#section-spørgsmål p {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 18px;
+  letter-spacing:1.5px;
+}
+
+/* FOOTER */ 
+footer{
+  font-family: "Didact Gothic", sans-serif;
+  height: 280px;
+  bottom: 3;
+  position: absolute;
+  display: block;
+  width: 100%;
+
+  text-align: right;
+  color:#DAEFFF;
+  background-color: #3A3D59;
+}
+
+.footerLogo{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: 48%;
+  margin-bottom: 100px;
+}
+
+.navlinkFooter li{
+  list-style-type: none;
+  margin-left: 133px;
+  height: max-content;
+  font-weight:normal;
+}
+
+.navlinkFooter{
+  margin-top: 3%;
+  line-height: 50%;
+}
+
+.footerLink, a{
+  color:#DAEFFF;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+div.socials{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: 85%;
+  margin-bottom: 100px;
+}
+
+img.soMeLogo{
+  width: 44px;
+  height: 44px;
+  
+}
+
+/*FOOTER*/
+footer{
+  font-family: "Didact Gothic", sans-serif;
+  height: 280px;
+  bottom: 3;
+  position: absolute;
+  display: block;
+  width: 100%;
+
+  text-align: right;
+  color:#DAEFFF;
+  background-color: #3A3D59;
+}
+
+.footerLogo{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: 48%;
+  margin-bottom: 100px;
+}
+
+.navlinkFooter li{
+  list-style-type: none;
+  margin-left: 133px;
+  height: max-content;}
+
+.navlinkFooter{
+  margin-top: 3%;
+  line-height: 50%;
+}
+
+
+.footerLink, a{
+  color:#DAEFFF;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight:normal;
+  font-size:19.5px;
+}
+
+div.socials{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: 85%;
+  margin-bottom: 100px;
+}
+
+img.soMeLogo{
+  width:44px;
+  height:44px;
+}

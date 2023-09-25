@@ -1,0 +1,20 @@
+:root {
+  --paragraph-font-family: "DidactGothic-Regular", Helvetica;
+  --paragraph-font-weight: 400;
+  --paragraph-font-size: 22px;
+  --paragraph-letter-spacing: 2.09px;
+  --paragraph-line-height: 131.5000057220459%;
+  --paragraph-font-style: normal;
+  --text-font-family: "DidactGothic-Regular", Helvetica;
+  --text-font-weight: 400;
+  --text-font-size: 24px;
+  --text-letter-spacing: 2.88px;
+  --text-line-height: 131.5000057220459%;
+  --text-font-style: normal;
+  --heading-font-family: "Quicksand-Bold", Helvetica;
+  --heading-font-weight: 700;
+  --heading-font-size: 36px;
+  --heading-letter-spacing: 5.4px;
+  --heading-line-height: normal;
+  --heading-font-style: normal;
+}

@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("fonts.gstatic.com/s/didactgothic/v20/ahcfv8qz1zt6hCC5G4F_P4ASlUaYpmDmYyVwrA.woff2");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1920px;
+  min-width: 360px;
+  overflow-x: 0;
+}
+
+body {
+  background-color: white;
+}
+
+main{
+  /* margin-left: 133px; */
+  min-height: 99vh;
+  max-width: 100vw;
+}
+
+li{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  list-style-type: none;
+  text-align: right;
+  z-index: 5;
+}
+
+.logo {
+  position: relative;
+  top: 55px;
+  right: 545px;
+}
+
+.navlink {
+  position: relative;
+  display: inline;
+  font-size: 150%;
+  letter-spacing: 0.15em;
+  font-family: "Didact Gothic", sans-serif;
+  top: 35px;
+  right: 133px;
+}
+
+.navlink a {
+  color: #3a3d59;
+  text-decoration: none;
+  padding: 1.5em;
+}
+
+.navlink a:hover {
+  color: #919fce;
+}
+
+footer {
+  position: relative;
+}
+
+/* MAIN */
+/* HEADER */
+#gradientsection {
+  height: 516px;
+  background: linear-gradient(to bottom, #919FCE, #DAEFFF);
+  background-size: 100%;
+}
+
+.figur-container {
+  width: 50%;
+  height: 395px;
+  background-color: #EBF7FF;
+  border-radius: 0px 500px 500px 0px;
+  position: absolute;
+  margin-top: 4%;
+}
+
+.content-figur {
+  text-align: center;
+  color: #3A3D59;
+  justify-content: center;
+  padding-top: 12%;
+}
+
+#heading-figur {
+  font-size: 45px;
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.paragraph-figur {
+  width: 85%;
+  font-size: 24px;
+  font-family: "Didact Gothic";
+  padding-left: 31%;
+  text-align: left;
+}
+
+/* PASNING OG PENSION */
+#section-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 20%;
+  }
+  
+  .sectionContent {
+    padding: 20px;
+    width: 503px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: "Quicksand";
+    margin-bottom: 20px;
+  }
+  
+  .text-content {
+    margin-bottom: 20px;
+    font-family: "Didact Gothic";
+  }
+
+ .imgSectionContainer {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 868px;
+    height: 624px;
+  }
+
+  /* BOOK PASNING ELLER PENSION */
+  .OpholdContainer{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 5%;
+    z-index: -5;
+    text-align: center;
+    margin-left: 20%;
+  }
+  
+  .aDyrCard{
+    letter-spacing: 0.10em;
+    float: left;
+    position: relative;
+    background-color:#3A3D59;
+    color:#BCE3FF;
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    margin:15px;
+    box-shadow: 5px 5px 5px 1px  #00000031;
+    top:20%;
+    left:133px;
+    z-index: 2;
+  }
+  
+  .aDyrCardPic{
+    overflow:hidden;
+    position: relative;
+    display: absolute;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .aDyrCardTitle{
+    width:fit-content;
+    font-size:larger;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+  
+    margin: 30px 30px ;
+    position: relative;
+    margin-top:25px;
+  }
+  
+  .OpholdCardTekst{
+    line-height: 2;
+    position: relative;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: lighter;
+    margin: 25px 30px;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-bottom:10%;
+  }
+
+  .button-læsMere{
+    font-size: large;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+    color: #3A3D59;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px 1px  #00000031;
+    border: hidden;
+    padding: 15px;
+    width: 200px;
+    height: 60px;
+    background-color: #FFC148;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    margin-bottom: 6%;
+  }
+
+/* HVORFOR VÆLGE OS? */
+
+#section-spørgsmål {
+    top:50%;
+    background-color: #EBF7FF;
+    position:relative;
+    display:flex;
+    width:100%;
+    height:523px;
+  }
+  
+  .spørgsmål-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-container {
+    flex: 1;
+  }
+  
+  .text-container {
+    font-size: 34px;
+    flex: 1; 
+    padding: 50px;
+    width: 605px;
+    position:relative;
+    display:block;
+    margin-left:70px;
+  }
+  
+  h5.heading-spørgsmål {
+    font-size:44px;
+    font-weight: bold;
+    color: #3A3D59;
+    letter-spacing:2px;
+  }
+  .text-container p {
+    color: #3A3D59;
+    width:605px;
+    height:156px;
+    margin-top:5%;
+  }
+  
+  .contact-button {
+    margin-top:25px;
+    font-family: "Quicksand", sans-serif;
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: #FFC148;
+    color: #3A3D59;
+    border-radius: 50px;
+    margin-top: 25px;
+    width: 331px;
+    height: 57px;
+    text-transform:uppercase;
+    text-decoration: none;
+    text-align:center;
+    font-size:24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .contact-button:hover {
+    background-color:#FFC148;
+    color:#3A3D59;
+  }
+  
+  .spørgsmål-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .img-spørgsmål-section {
+    display:relative;
+    width: 637px;
+    height: 523px;
+  }
+  
+  .heading-spørgsmål {
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    color: #3C3830;
+    font-size: 36px;
+  }
+  
+  #section-spørgsmål p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 18px;
+    letter-spacing:1.5px;
+  }
+  
+  /* FORSIKRING */
+  
+  #blueBox-gradient {
+    margin: 5%;
+  }
+
+  .blueBox-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom,#ffffff, #95A2D0, #B2BBE5, #D6DAFF);
+    width: 1080px;
+    height: 596px;
+    padding: 20px;
+    margin-left: 20.4%;
+    border-radius: 10px;
+  }
+  
+  .blueBox-section h3{
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #3A3D59;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-left: 5%;
+  }
+  
+  .paragraph-box {
+    font-family: "Didact Gothic", sans-serif;
+    margin-bottom: 20px;
+    color: #3A3D59;
+    font-size: 18px;
+    width: 841px;
+    margin-left: 5%;
+    letter-spacing: 2px;
+  }
+  
+  
+  .list-section {
+    font-family: "Didact Gothic", sans-serif;
+    list-style-type: disc;
+    margin-left: 100px;
+    color: #3A3D59;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  li {
+  margin-bottom: 20px;
+  width: 670px;
+  }
+
+/* KUNDEANMELDELSER */
+
+.kundeanmeldelserWrapper{
+    color:#3A3D59;
+    margin-bottom: 5%;
+    overflow: hidden;
+    position:relative;
+    width:1173px;
+  }
+  
+  h5{
+    font-family: "Quicksand",sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  p.kundeanmeldelserDesc{
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .streger2{
+    border-top: 2px solid #3A3D59;
+    border-radius:50px;
+    width: 150px;
+    display: inline-flex;
+  }
+  
+  div.playButton{
+    margin:25%;
+    position:absolute;
+    display:block;
+    z-index:5;
+  }
+  
+  img.playButton{
+    position:relative;
+    display: absolute;
+    padding: 50px;
+    width:26px;
+    height:26px;
+  }
+
+  .videoContainer{
+    display: flex;
+    margin:0;
+    padding:0;
+    overflow:scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+  }
+
+/*FOOTER*/
+footer{
+    font-family: "Didact Gothic", sans-serif;
+    height: 280px;
+    bottom: 3;
+    position: absolute;
+    display: block;
+    width: 100%;
+  
+    text-align: right;
+    color:#DAEFFF;
+    background-color: #3A3D59;
+  }
+  
+  .footerLogo{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-left: 48%;
+    margin-bottom: 100px;
+  }
+  
+  .navlinkFooter li{
+    list-style-type: none;
+    margin-left: 133px;
+    height: max-content;}
+  
+  .navlinkFooter{
+    margin-top: 3%;
+    line-height: 50%;
+  }
+  
+  
+  .footerLink, a{
+    color:#DAEFFF;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight:normal;
+    font-size:19.5px;
+  }
+  
+  div.socials{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-left: 85%;
+    margin-bottom: 100px;
+  }
+  
+  img.soMeLogo{
+    width:44px;
+    height:44px;
+  }
+  

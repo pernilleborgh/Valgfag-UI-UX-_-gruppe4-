@@ -1,0 +1,593 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("fonts.gstatic.com/s/didactgothic/v20/ahcfv8qz1zt6hCC5G4F_P4ASlUaYpmDmYyVwrA.woff2");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1920px;
+  min-width: 360px;
+  overflow-x: 0;
+}
+
+body {
+  background-color: white;
+}
+
+main{
+  /* margin-left: 133px; */
+  min-height: 99vh;
+  max-width: 100vw;
+}
+
+li{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  list-style-type: none;
+  text-align: right;
+  z-index: 5;
+}
+
+.logo {
+  position: relative;
+  top: 55px;
+  right: 545px;
+}
+
+.navlink {
+  position: relative;
+  display: inline;
+  font-size: 150%;
+  letter-spacing: 0.15em;
+  font-family: "Didact Gothic", sans-serif;
+  top: 35px;
+  right: 133px;
+}
+
+.navlink a {
+  color: #3a3d59;
+  text-decoration: none;
+  padding: 1.5em;
+}
+
+.navlink a:hover {
+  color: #919fce;
+}
+
+footer {
+  position: relative;
+}
+
+/* MAIN */
+/* HEADER */
+#gradientsection {
+  height: 516px;
+  background: linear-gradient(to bottom, #919fce, #ffc47e);
+  background-size: 100%;
+}
+
+.figur-container {
+  width: 50%;
+  height: 395px;
+  background-color: #546088;
+  border-radius: 0px 500px 500px 0px;
+  position: absolute;
+  margin-top: 4%;
+}
+
+.content-figur {
+  text-align: center;
+  color: #daefff;
+  justify-content: center;
+  padding-top: 12%;
+}
+
+#heading-figur {
+  font-size: 45px;
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.paragraph-figur {
+  width: 85%;
+  font-size: 24px;
+  font-family: "Didact Gothic";
+  padding-left: 31%;
+  text-align: left;
+}
+
+h2 {
+  color: #3a3d59;
+}
+
+#adoption-guide {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../assets/images/mis-adoption.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 823px;
+  justify-content: center;
+  color:#3A3D59;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  top: 5%;
+  position:relative;
+}
+
+h4{
+  color:#3A3D59;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: "Quicksand", sans-serif;
+  position:relative;
+  top:18%;
+  margin-right:59%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ul-bold {
+  font-weight: bold;
+}
+
+p.adoption-guideIntro{
+  font-family: "Didact Gothic", sans-serif;
+  margin-bottom: 50px;
+  width: 332px;
+  margin-right: 80px;
+  position:relative;
+}
+
+.adoption-guideTekst{
+  font-family: "Didact Gothic", sans-serif;
+  margin-bottom: 30px;
+  width: 332px;
+}
+
+.right-content{
+  margin-left: 50px;
+  margin-top:-50px;
+}
+
+.text-content-left{
+  margin-right: 100px;
+  margin-top:-180px;
+}
+
+/* DYR TIL ADOPTION - SEKTION */
+.aDyrContainer{
+  width: 100%;
+  height: 700px;
+  margin-bottom: 5%;
+  background-color:#EEF8FF;
+  z-index: -5;
+  text-align: center;
+}
+
+.ledigContainer{
+  display: flex;
+  position: absolute;
+  margin-left: 15%;  
+}
+
+.ledigLabel{
+  font-family: "Didact Gothic", sans-serif;
+  font-weight:bolder;
+  text-shadow: 2px 2px 3px #00000031;
+  color: #3A3D59;
+  text-align:center;
+  padding: 6px;
+  height: auto;
+  position: absolute;
+  z-index: 3; 
+  box-shadow: 5px 5px 5px 1px  #00000031;
+  top:48%;
+  background-color:#BCE3FF;
+  left:60%;
+  width: 100px;
+  }
+
+.aDyrCard{
+  letter-spacing: 0.10em;
+  float: left;
+  position: relative;
+  background-color:#3A3D59;
+  color:#BCE3FF;
+  width: 300px;
+  height: fit-content;
+  border-radius: 10px;
+  margin:15px;
+  box-shadow: 5px 5px 5px 1px  #00000031;
+  top:20%;
+  left:133px;
+  z-index: 2;
+}
+
+.aDyrCardPic{
+  overflow:hidden;
+  position: relative;
+  display: absolute;
+  margin: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.aDyrCardPic img{
+  left: -50%;
+  top: -50%;
+}
+
+.aDyrCardTitle{
+  width:fit-content;
+  font-size:larger;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+
+  margin: 30px 30px ;
+  position: relative;
+  margin-top:25px;
+}
+
+.aDyrCardTekst{
+  text-transform: uppercase;
+  line-height: 2;
+  position: relative;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: lighter;
+  margin: 25px 30px;
+  padding-bottom: 5px;
+  text-align: left;
+  margin-bottom:10%;
+}
+
+#seFlereContainer{
+  margin-top:335px;
+  color:#3A3D59;
+}
+
+.seFlere{
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 13;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.seFlerePil{
+  margin-top:0.5%;
+  margin-left:0.5%;
+}
+
+#adoption-guide {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../assets/images/mis-adoption.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 823px;
+  justify-content: center;
+  margin-top:100px;
+  color:#3A3D59;
+}
+
+h4 {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom:125px;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+
+.spørgsmålTekst{
+  font-family: "Didact Gothic", sans-serif;
+  margin-bottom: 30px;
+  width: 332px;
+}
+
+.text-content-left {
+  margin-right: 20%;
+}
+
+.right-content {
+  padding-top: 5%;
+}
+
+/* ADOPTIONSPROCESSEN */
+
+.adoptionsprocessenSection {
+  color: #3A3D59;
+  margin: 5% auto; 
+  text-align: center;
+}
+
+h5 {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.streger2 {
+  border-top: 2px solid #3A3D59;
+  border-radius: 50px;
+  width: 150px;
+  display: inline-flex;
+}
+
+.card-Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center; 
+  margin: 6%;
+  margin-right: 35%;
+}
+
+.procesCard {
+  background-color: #BCE3FF;
+  color: #3A3D59;
+  width: 246px;
+  height:370px;
+  border-radius: 10px; 
+  margin-left:100%;
+}
+
+.CardPic {
+  width: 246px;
+  height: 250px;
+}
+
+.CardTekst {
+  font-family: "Didact Gothic", sans-serif;
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+  width: 100%; 
+}
+
+.underline {
+  text-decoration: underline;
+  color:#546088;
+  cursor: pointer;
+}
+
+/* FORSIKRING */
+
+#blueBox-gradient {
+  background: linear-gradient(to bottom,#ffffff, #BCE3FF, #BCE3FF, #ffffff);
+  width: 100%;
+  height: 800px;
+}
+
+.blueBox-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EBF7FF;
+  width: 1080px;
+  height: 596px;
+  padding: 20px;
+  margin-left: 20.4%;
+  border-radius: 10px;
+}
+
+.blueBox-section h3{
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #3A3D59;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-left: 5%;
+}
+
+.paragraph-box {
+  font-family: "Didact Gothic", sans-serif;
+  margin-bottom: 20px;
+  color: #3A3D59;
+  font-size: 18px;
+  width: 841px;
+  margin-left: 5%;
+  letter-spacing: 2px;
+}
+
+
+.list-section {
+  font-family: "Didact Gothic", sans-serif;
+  list-style-type: decimal;
+  margin-left: 100px;
+  color: #3A3D59;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+li {
+margin-bottom: 20px;
+width: 670px;
+}
+
+/* SPØRGSMÅL-SEKTION */
+
+#section-spørgsmål {
+  top:50%;
+  background-color: #FFF3E5;
+  position:relative;
+  display:flex;
+  width:100%;
+  height:523px;
+}
+
+.spørgsmål-content {
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  flex: 1;
+}
+
+.text-container {
+  font-size: 34px;
+  flex: 1; 
+  padding: 50px;
+  width: 605px;
+  position:relative;
+  display:block;
+  margin-left:70px;
+}
+
+h5.heading-spørgsmål {
+  font-size:44px;
+  font-weight: bold;
+  color: #3A3D59;
+  letter-spacing:2px;
+}
+.text-container p {
+  color: #3A3D59;
+  width:605px;
+  height:156px;
+  margin-top:5%;
+}
+
+.contact-button {
+  margin-top:25px;
+  font-family: "Quicksand", sans-serif;
+  display: inline-block;
+  padding: 13px 20px;
+  background-color: #3A3D59;
+  color: #FFC148;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 331px;
+  height: 57px;
+  text-transform:uppercase;
+  text-decoration: none;
+  text-align:center;
+  font-size:24px;
+  letter-spacing: 1.5px;
+}
+
+#kontaktPil{
+  margin-left:45px;
+}
+
+.contact-button:hover {
+  background-color:#FFC148;
+  color:#3A3D59;
+}
+
+.spørgsmål-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-spørgsmål-section {
+  display:relative;
+  width: 637px;
+  height: 523px;
+}
+
+.heading-spørgsmål {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: #3C3830;
+  font-size: 36px;
+}
+
+#section-spørgsmål p {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 18px;
+  letter-spacing:1.5px;
+}
+
+/*FOOTER*/
+footer{
+  font-family: "Didact Gothic", sans-serif;
+  height: 280px;
+  bottom: 3;
+  position: absolute;
+  display: block;
+  width: 100%;
+
+  text-align: right;
+  color:#DAEFFF;
+  background-color: #3A3D59;
+}
+
+.footerLogo{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: 48%;
+  margin-bottom: 100px;
+}
+
+.navlinkFooter li{
+  list-style-type: none;
+  margin-left: 133px;
+  height: max-content;}
+
+.navlinkFooter{
+  margin-top: 3%;
+  line-height: 50%;
+}
+
+
+.footerLink, a{
+  color:#DAEFFF;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight:normal;
+  font-size:19.5px;
+}
+
+div.socials{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: 85%;
+  margin-bottom: 100px;
+}
+
+img.soMeLogo{
+  width:44px;
+  height:44px;
+}
